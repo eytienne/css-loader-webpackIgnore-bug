@@ -1,0 +1,20 @@
+{
+  "name": "css-loader-webpack_ignore-bug",
+  "version": "1.0.0",
+  "repository": "git@github.com:eytienne/css-loader-webpack_ignore-bug.git",
+  "scripts": {
+    "webpack": "node -r ts-node/register node_modules/.bin/webpack --mode=development"
+  },
+  "devDependencies": {
+    "@types/mini-css-extract-plugin": "^1.4.3",
+    "css-loader": "^5.2.6",
+    "cssnano": "^5.0.5",
+    "fibers": "^5.0.0",
+    "mini-css-extract-plugin": "^1.6.0",
+    "postcss-loader": "^5.3.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
